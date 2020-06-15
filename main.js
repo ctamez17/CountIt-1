@@ -17,11 +17,11 @@ input = input = input.toLowerCase().match(/[a-z]/g).sort();
         storage[letter] = 1;
       }
     })
-finialCount = '';
+finalCount = '';
 for (let items in storage){
-  finialCount += items + ':' + storage[items] + ' ';
+  finalCount += items + ':' + storage[items] + ' ';
 }
-return finialCount
+return finalCount
 }
 countIt(input);
 

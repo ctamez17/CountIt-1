@@ -1,0 +1,52 @@
+body {
+    font-family: 'Roboto', sans-serif;
+
+    flex-direction: column;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    background: rgb(204, 204, 204);
+    /* background: linear-gradient(0deg, rgba(81,75,180,1) 0%, rgba(255,255,255,1) 0%, rgb(206, 206, 206) 100%);     */
+}
+
+/* "Count It" */
+.header{ 
+    display: flex;
+    justify-content: center;   
+    color: rgb(255, 255, 255);
+    font-size: 85px;
+}
+
+/* "Give it a try!" */
+h3{
+    /* margin: 20px 20px; */
+    font-size: 35px;
+    color: rgb(37, 37, 37);
+}
+
+/* "Enter text below!" */
+div2{
+    font-size: 25px;
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+}
+
+button {
+    width: 200px;
+    /* padding: 5px 0px; */
+    /*box-shadow: 0 0px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);*/
+  }
+
+  #final{
+    font-size: 32px;
+    text-transform: uppercase;
+    /* padding: 25px 10px; */
+  }
+
+  #converted{
+      size: 72px;
+  }
